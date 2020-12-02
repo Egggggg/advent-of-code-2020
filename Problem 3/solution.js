@@ -2,8 +2,6 @@ const linereader = require("./linereader.js");
 const lines = linereader.read();
 let valid = 0;
 
-console.log(lines.length);
-
 lines.forEach(function(line) {
 	line = line.split(" ");
 
